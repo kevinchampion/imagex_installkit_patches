@@ -1,0 +1,15 @@
+diff --git a/drupal-org.make b/drupal-org.make
+index d5d6fde..ecb11e3 100644
+--- a/drupal-org.make
++++ b/drupal-org.make
+@@ -136,7 +136,9 @@ projects[instantfilter][subdir] = "contrib"
+ projects[instantfilter][version] = "1.0-beta2"
+ projects[jquery_update][type] = "module"
+ projects[jquery_update][subdir] = "contrib"
+-projects[jquery_update][version] = "2.3"
++projects[jquery_update][download][type] = "git"
++projects[jquery_update][download][url] = "http://git.drupal.org/project/jquery_update.git"
++projects[jquery_update][download][revision] = "65eecb0f1fc69cf6831a66440f72e33a1effb1f3"
+ projects[lightbox2][type] = "module"
+ projects[lightbox2][subdir] = "contrib"
+ projects[lightbox2][version] = "1.0-beta1"
