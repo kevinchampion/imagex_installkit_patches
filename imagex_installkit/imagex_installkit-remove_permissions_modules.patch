@@ -1,5 +1,5 @@
 diff --git a/imagex_installkit.info b/imagex_installkit.info
-index 2a0cc0b..0cad912 100644
+index ea5c38e..0cad912 100644
 --- a/imagex_installkit.info
 +++ b/imagex_installkit.info
 @@ -77,7 +77,6 @@ dependencies[] = views_bulk_operations
@@ -10,11 +10,9 @@ index 2a0cc0b..0cad912 100644
  dependencies[] = imagex_common_fields
  dependencies[] = imagex_files
  dependencies[] = imagex_media
-@@ -85,12 +84,8 @@ dependencies[] = imagex_metatag
- dependencies[] = imagex_page
+@@ -86,10 +85,7 @@ dependencies[] = imagex_page
  dependencies[] = imagex_page_workflow
  dependencies[] = imagex_panels
--dependencies[] = imagex_superuser
  dependencies[] = imagex_user_roles
 -dependencies[] = imagex_user_permissions
  dependencies[] = imagex_vocabulary_tags
